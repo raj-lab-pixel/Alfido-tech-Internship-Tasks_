@@ -9,14 +9,19 @@ int main(){
     printf("enter second number: ");
     scanf("%f",&b);
     switch(operations){
-        case '+':printf("result=%f\n",a+b);break;
-        case '-':printf("result=%f\n",a-b);break;
-        case '*':printf("result=%f\n",a*b);break;
+        case '+':printf("result=%f\n",a+b);
+            break;
+        case '-':printf("result=%f\n",a-b);
+            break;
+        case '*':printf("result=%f\n",a*b);
+            break;
         case '/':
           if(b==0)
             printf("error!division by zero");
           else
-            printf("result=%f\n",a/b);break;
+            printf("result=%f\n",a/b);
+            break;
     }
     return 0;
+
 }
